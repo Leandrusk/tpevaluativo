@@ -9,12 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment } from 'src/environments/environments'; //vincula a la BD con la app
 import { AngularFireModule } from '@angular/fire/compat' // Trabaja con las colecciones de información
 import { AngularFireAuthModule } from '@angular/fire/compat/auth' //Trabaja con la autentificación
-import {AngularFireStorageModule } from '@angular/fire/compat/storage'//Trabaja con imagenes y archivos
+import {AngularFireStorageModule } from '@angular/fire/compat/storage';
+//Trabaja con imagenes y archivos
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
